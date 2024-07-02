@@ -1,0 +1,161 @@
+:root {
+  --bg-color: #322653;
+  --btn-color: #ea1179;
+  --box-shadow: 3px 3px 7px var(--btn-color);
+  --color: #fff;
+}
+body {
+  background-color: var(--bg-color);
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  height: 100px;
+  color: var(--color);
+}
+.navbar h2 {
+  font-weight: 500;
+  color: #ea1179;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.nav a {
+  color: #fff;
+  font-size: 20px;
+}
+.nav a:hover {
+  color: var(--btn-color);
+  transition: a11 2sec;
+}
+
+.underline {
+  border-bottom: 2px solid var(--btn-color);
+}
+
+.header {
+  color: var(--color);
+  display: flex;
+  width: 80%;
+  height: 85vh;
+  align-items: center;
+  margin: 0 auto;
+  gap: 150px;
+}
+.left,
+.right {
+  width: 45%;
+}
+.left h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.left label {
+  color: var(--btn-color);
+  text-shadow: 3px 3px black;
+}
+.left p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.right img {
+  object-fit: fill;
+  height: 60vh;
+  width: 400px;
+}
+.Aleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  color: #fff;
+
+  margin: 0 auto;
+}
+.Aleft h4 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  width: 60%;
+  font-weight: 300;
+  border: 3px solid #ea1179;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: var(--box-shadow);
+}
+label {
+  color: #ea1179;
+}
+.edu {
+  width: 70%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+th {
+  color: #ea1179;
+}
+table,
+th,
+td {
+  border: 1px solid #ea1179;
+}
+.Aleft h4 {
+  transition: width 2s height 2s transform 2s;
+}
+.Aleft h4:hover {
+  width: 90%;
+  height: 150px;
+  transform: skew(180deg);
+}
+.skills {
+  display: flex;
+  gap: 30px;
+  color: #fff;
+  width: 80%;
+  height: 85vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.skills img {
+  width: 70%;
+}
+.skills ul {
+  width: 30%;
+}
+.skills li {
+  list-style: none;
+  font-size: 30px;
+}
+.skills li::before {
+  content: "\00BB";
+  color: #ea1179;
+  font-size: 50px;
+  padding-right: 20px;
+}
